@@ -1,0 +1,220 @@
+@font-face
+{
+  font-family: 'ballpark';
+  src :url('polices/ballpark.eot') format('eot'),
+       url('polices/ballpark.svg') format('svg'),
+       url('polices/ballpark.ttf') format('truetype'),
+       url('polices/ballpark.woff') format('woff');
+  font-family: 'dayrom';
+  src: url('polices/dayrom.eot') format('eot'),
+       url('polices/dayrom.svg') format('svg'),
+       url('polices/dayrom.ttf') format('truetype'),
+       url('polices/dayrom.woff') format('woff');
+}
+
+body
+{
+  background: url("images/fond_jaune.png") fixed repeat;
+  width: 950px;
+  margin: auto;
+}
+
+header
+{
+  font-family: dayrom;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+    header h1
+    {
+      font-style: italic;
+
+    }
+
+    .entete
+    {
+      line-height: 1px;
+    }
+
+    .entete div
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+    }
+
+    .entete div img
+    {
+      width: 59px;
+      height: 60px;
+    }
+
+    .logo
+    {
+      float: left;
+    }
+
+    ul
+    {
+      list-style-type: none;
+      display: flex;
+      flex direction: row;
+      justify-content: flex-end;
+      margin-top: 60px;
+    }
+
+        li
+        {
+          margin-left: 30px;
+
+        }
+
+        a
+        {
+          text-decoration: none;
+        }
+
+        ul a:hover
+        {
+          color: red;
+          text-decoration: underline;
+        }
+
+.article1
+{
+ background-color: green;
+ position: relative;
+ border-radius: 7px;
+ overflow: hidden;
+}
+
+.article1 img
+{
+  width: 100%;
+}
+
+    .bandeau
+    {
+      width: 950px;
+      position: absolute;
+      bottom: 0;
+      height: 40px;
+      background-color: rgba(0,0,0,.7);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+          .accroche
+          {
+            color: white;
+            margin: 10px 0 0 7px;
+          }
+
+          .bouton
+          {
+            background: url("images/fond_degraderouge.png") scroll;
+            width: 120px;
+            height: 25px;
+            background-color: ;
+            border-radius: 4px;
+            margin: 7px 7px 0 0;
+            text-align: center;
+            line-height: 25px;
+            }
+
+                .lienarticle
+                {
+                  color: white;
+                  margin: auto;
+                }
+
+                .lienarticle img
+                {
+                  margin-left: 5px;
+                }
+
+.main
+{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+      .article2
+      {
+        background-color:;
+        text-align: justify;
+        flex: 2.25;
+        margin-right:px;
+      }
+
+            .epingle
+            {
+              float:left;
+              margin-right:5px;
+            }
+
+      aside
+      {
+        height: 420px;
+        background-color: rgb(112, 107, 100);
+        flex: 1;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      .bulle
+      {
+        height: 17px;
+        position: relative;
+        top: 130px;
+      }
+
+            .align
+            {
+              text-align: justify;
+              padding-left: 8px;
+              padding-right: 8px;
+            }
+
+
+footer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+      .tweet
+      {
+        flex: 1;
+      }
+
+      .pics
+      {
+        flex: 1;
+      }
+
+      .friends
+      {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+            .friends a
+            {
+              color: red;
+            }
+
+.icolien
+{
+  width: 7px;
+  height: 9px;
+  margin-right: 3px;
+}
